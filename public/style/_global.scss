@@ -1,0 +1,34 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.page-content {
+  margin-top: 100px;
+}
+
+footer {
+  border-top: 1px solid #e4e4e4;
+
+  p {
+    color: #979797;
+  }
+}
+.copyrightText
+{
+    padding: 8px 40px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+}
+.copyrightText p
+{
+    color: rgb(53, 43, 43);
+}
+.copyrightText a
+{
+    color: #ff0157;
+    font-weight: 500;
+    text-decoration: none;
+}
+.form-control {
+  background-color: #f3f3f3;
+}

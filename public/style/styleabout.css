@@ -1,0 +1,307 @@
+.banner1 .content1 {
+    max-width: 900px;
+    text-align: left;
+    margin-right: 250px;
+}
+.banner1 .content1 h2 {
+    text-align: left;
+    font-family: "Poppins";
+    font-size: 2.8em;
+    font-weight: 580;
+    color: #fff;
+}
+.banner1 .content1 p {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #fff;
+}
+.btn {
+    font-size: 1em;
+    color: #fff;
+    background: #ff0157;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btn:hover {
+    letter-spacing: 6px;
+}
+section {
+    padding: 100px;
+}
+.row1 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row1 .col50 {
+    position: relative;
+    width: 48%;
+}
+.tittleText1 {
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-weight: 300;
+}
+.tittleText1 span {
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.tittleText {
+    color: rgb(255, 191, 0);
+    font-size: 2em;
+    font-weight: 300;
+}
+.tittleText span {
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.row1 .col50 .imgBx {
+    position: relative;
+    width: 100%;
+    /*min-height: 300px;*/
+    height: 100%;
+}
+.row1 .col50 .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.body2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 60px 0;
+}
+.box1 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    background: #060c21;
+    transition: 0.5s;
+}
+.box1:hover {
+    height: 400px;
+}
+.box1 .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.box1 .imgBx img {
+    max-width: 100%;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+.box1:hover .imgBx img {
+    opacity: 1;
+}
+.box1:before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+}
+.box1:after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+    filter: blur(40px);
+}
+.box1:before,
+.box1:after {
+    background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+}
+.box1:nth-child(2):before,
+.box1:nth-child(2):after {
+    background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
+}
+.box1:nth-child(3):before,
+.box1:nth-child(3):after {
+    background: linear-gradient(235deg, #772aff, #010615, #2196f3);
+}
+.box1 .content2 {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 90px;
+    background: rgb(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+.box1:hover .content2 {
+    opacity: 1;
+}
+.box1 .content2 h2 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.box1 .content2 h2 span {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.white .tittleText,
+.white p {
+    color: #fff;
+}
+
+.content3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content3 .hexagon {
+    position: relative;
+    width: 350px;
+    height: 400px;
+    margin: 50px 20px 70px;
+}
+.content3 .hexagon::before {
+    content: "";
+    position: absolute;
+    bottom: -70px;
+    width: 100%;
+    height: 60px;
+    background: radial-gradient(
+        rgba(255, 251, 251, 0.671),
+        transparent,
+        transparent
+    );
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.content3 .hexagon:hover::before {
+    opacity: 0.8;
+    transform: scale(0.8);
+}
+.content3 .hexagon .shape {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+    transition: 0.5s;
+}
+.content3 .hexagon:hover .shape {
+    transform: translateY(-30px);
+}
+.content3 .hexagon .shape img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content3 .hexagon .shape .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(45deg, #03a9f4, rgba(3, 169, 244, 0.5));
+    color: #fff;
+    opacity: 0;
+    transition: 0.5s;
+}
+.content3 .hexagon:hover .shape .text {
+    opacity: 1;
+}
+@media (max-width: 991px) {
+    section {
+        padding: 20px;
+    }
+    .banner1 .content1 p {
+        width: 180%;
+    }
+    .banner1 .content1 h2 {
+        font-size: 26px;
+        color: #fff;
+        line-height: 36px;
+        text-align: left;
+        margin-top: 90px;
+        width: 180%;
+    }
+    .row1 {
+        flex-direction: column;
+    }
+    .row1 .col50 {
+        position: relative;
+        width: 100%;
+    }
+    .row1 .col50 .imgBx {
+        height: 300px;
+        margin-top: 20px;
+    }
+    .title {
+        text-align: center;
+    }
+    .tittleText {
+        font-size: 1.8em;
+        line-height: 1.5em;
+        margin-bottom: 15px;
+        font-weight: 300;
+    }
+}
+@media (max-width: 480px) {
+    .banner1 .content1 h2 {
+        font-size: 2.2em;
+        color: #fff;
+    }
+}

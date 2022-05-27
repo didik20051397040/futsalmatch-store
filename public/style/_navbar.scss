@@ -1,0 +1,73 @@
+.navbar-store {
+  padding: 10px 100px;
+
+  @include media-breakpoint-down(md) {
+    background-color: rgb(78, 100, 32) !important;
+  }
+
+
+}
+.container .logo {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+.container .logo span {
+    color: #ff0157;
+}
+.profile-picture {
+  max-height: 45px;
+  margin-bottom: 10px;
+}
+
+.navbar-fixed-top.scrolled {
+  align-items: center;
+  padding: 10px 100px;
+  background-color: rgb(78, 100, 32) !important;
+  transition: background-color 200ms linear;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(60, 255, 6, 0.916);
+}
+.nav-item {
+  .nav-link {
+    @include media-breakpoint-up(lg) {
+      margin-left: 10px;
+      margin-right: 10px;
+      color: rgb(0, 0, 0);
+    }
+  }
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: #efefef;
+}
+
+.card-badge {
+  display: inline-block;
+  min-width: 2em;
+  padding: 0.3em;
+  border-radius: 50%;
+  font-size: 10px;
+  text-align: center;
+  background-color: #296872;
+  color: #efefef;
+  margin-left: -11px;
+}
+
+.navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    align-items: center;
+    list-style: none;
+}

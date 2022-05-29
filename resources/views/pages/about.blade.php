@@ -62,13 +62,35 @@ Store About Us
     <div class="title mb-4" data-aos="fade-down" data-aos-delay="250">
         <h2 class="tittleText"> Our <span>T</span>eam</h2>
     </div>
-    <div class="body2 mt-3" data-aos="fade-down" data-aos-delay="500">
-        <div class="box1">
-            <div class="imgBx" >
-                 <img src="assets/images/didik.jpg">
+    <div class="content3">
+        <div class="body2 mt-3" data-aos="fade-down" data-aos-delay="400">
+            <div class="box1">
+                <div class="imgBx" >
+                    <img src="assets/images/didik.jpg">
+                </div>
+                <div class="content2">
+                    <h2>Didik Wahyudi<br><span>Manajemen Informatika</span></h2>
+                </div>
             </div>
-            <div class="content2">
-                <h2>Didik Wahyudi<br><span>Manajemen Informatika</span></h2>
+        </div>
+        <div class="body2 mt-3" data-aos="fade-down" data-aos-delay="500">
+            <div class="box1">
+                <div class="imgBx" >
+                    <img src="assets/images/ananta1.jpg">
+                </div>
+                <div class="content2">
+                    <h2>Ananta<br><span>Manajemen Informatika</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="body2 mt-3" data-aos="fade-down" data-aos-delay="600">
+            <div class="box1">
+                <div class="imgBx" >
+                    <img src="assets/images/dapa.jpeg">
+                </div>
+                <div class="content2">
+                    <h2>Daffa Fauzan<br><span>Manajemen Informatika</span></h2>
+                </div>
             </div>
         </div>
     </div>
